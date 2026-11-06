@@ -1,0 +1,16 @@
+Completed Task 1 of my internship at @SWYNEX Technologies!
+
+For this task, I designed a conceptual cloud architecture for a Cloud-Based Task Management API using Amazon Web Services (AWS).
+
+The architecture covers:
+• Compute – AWS Lambda
+• Storage – Amazon DynamoDB
+• Networking – Amazon API Gateway
+• Identity and access management – Amazon Cognito and AWS IAM
+• Monitoring – Amazon CloudWatch
+
+This exercise helped me understand how managed cloud services work together to build a scalable, secure, and maintainable API workload. I also documented the request flow, security considerations, scalability, and deployment approach.
+
+Looking forward to learning more and applying these concepts in upcoming tasks!
+
+#SWYNEX #Internship #CloudComputing #AWS #CloudArchitecture #AmazonWebServices #LearningJourney

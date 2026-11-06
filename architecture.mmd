@@ -1,0 +1,9 @@
+flowchart TD
+    U[Web / Mobile Client] -->|HTTPS| G[Amazon API Gateway]
+    G -->|Authenticate request| C[Amazon Cognito]
+    G -->|Invoke API handler| L[AWS Lambda]
+    L -->|Read / write tasks| D[(Amazon DynamoDB)]
+    L -->|Application logs| CW[Amazon CloudWatch]
+    G -->|Access and request logs| CW
+    IAM[AWS IAM Roles & Policies] -.->|Least-privilege permissions| L
+    IAM -.->|Service access control| G
